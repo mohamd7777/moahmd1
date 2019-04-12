@@ -1,17 +1,17 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "g";
+const prefix = "m";
 
 
 
-client.on('ready', () => {
+ {
    console.log(`----------------`);
       console.log(`script by mohamd`);
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Script By : mohamd' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`=gbc tmgohst server by mohamd gamer`,"moahmd gamer")
+client.user.setGame(`=mbc all server by mohamd gamer`,"moahmd gamer")
 client.user.setStatus("dnd")
 });
 
@@ -155,7 +155,7 @@ client.on("message", async message => {
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/YSJYxEd 
+            رابط سيرفر الدعم الفني : 
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
